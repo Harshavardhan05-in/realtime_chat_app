@@ -49,7 +49,7 @@ export const Chats = () => {
 
     useEffect(()=>{
          const token = localStorage.getItem("jwt");
-         const ws = new WebSocket(`ws://127.0.0.1:8000/ws?token=${token}`);
+         const ws = new WebSocket(`wss://realtime-chat-app-3xd6.onrender.com/ws?token=${token}`);
 
          ws.onopen = () => {
             console.log("CONNECTED");
