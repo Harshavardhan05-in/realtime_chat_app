@@ -23,7 +23,7 @@ export const Login = () => {
                 if(res.status >= 200 && res.status < 300){
                     const token = res.data["access_token"];
                     localStorage.setItem("jwt",token)
-                    navigate("/chats")
+                    navigate("/")
 
                 }else{
                     setInputValue({

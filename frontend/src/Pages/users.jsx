@@ -70,7 +70,7 @@ export const FindUsers = () => {
                 </div>
 
                 <button
-                    onClick={() => navigate("/chats")}
+                    onClick={() => navigate("/")}
                     className="
                         bg-gray-800
                         hover:bg-gray-700

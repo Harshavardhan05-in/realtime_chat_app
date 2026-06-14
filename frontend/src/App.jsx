@@ -21,7 +21,7 @@ function App() {
       element:<Login />
     },
     {
-      path:"/chats",
+      path:"/",
       element:<Chats />
     },
     {

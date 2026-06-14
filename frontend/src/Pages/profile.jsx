@@ -61,7 +61,7 @@ export const Profile = () => {
           <div className="flex items-center gap-3">
 
             <button
-              onClick={() => navigate("/chats")}
+              onClick={() => navigate("/")}
               className="
                 p-2
                 rounded-lg
